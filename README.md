@@ -78,8 +78,13 @@ The app follows a clean client-server architecture:
 - npm
 
 ### Installation & Running
+# 1. Clone the repository
+git clone https://github.com/AnnDavid-one/giveawayApllication.git
 
-#### Backend
+# 2. Navigate into the main project folder
+cd giveawayApllication
+
+#### 2.1 Backend
 
 ```bash
 cd backend
@@ -89,7 +94,7 @@ npm start or npm run dev
 
 The backend server will start on `https://giveawayapplicationbackend-1.onrender.com`
 
-#### Frontend
+#### 2.2 Frontend
 
 ```bash
 cd frontend
