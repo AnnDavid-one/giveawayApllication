@@ -52,24 +52,7 @@ The app follows a clean client-server architecture:
 - Responsive design with modern UI
 - Real-time feedback with loading states
 
-### Data Model
-```typescript
-{
-  id: string,           // UUID
-  title: string,        // Giveaway title
-  entries: [            // Array of entries
-    {
-      id: string,       // Entry UUID
-      enteredAt: string // ISO timestamp
-    }
-  ],
-  winner: {             // Winner object (null if not picked)
-    entryId: string,    // Winning entry ID
-    pickedAt: string    // ISO timestamp
-  },
-  createdAt: string     // ISO timestamp
-}
-```
+
 
 ## Getting Started
 
